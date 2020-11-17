@@ -1,0 +1,50 @@
+.sign-up{
+    margin: auto;
+    padding: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: 2px solid;
+
+    a{
+        text-decoration: none;
+        color: gray;
+        font-size: 24px;
+        padding: 5px;
+    }
+
+    .form-control {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+
+        input[type='text'],[type='password'],[type='email'] {
+            border: none;
+            border-bottom: 1.5px solid;
+            font-family: 'Saira', sans-serif;
+            font-size: 16px;
+            width: 300px;
+        }
+    }
+
+    .join-heading{
+        display: inline-block;
+        font-size: 30px;
+        margin: auto;
+    
+        span{
+            font-weight: bold;
+            padding: 25px;
+            cursor: pointer;
+        }
+    
+        a:hover{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+}
+
+.submit-button{
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+}

@@ -1,0 +1,156 @@
+.header{
+    display: flex;
+    background-color: black;
+    height: 57px;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+
+    .logo {
+        display: flex;
+
+        img {
+            width: 57px;
+            height: 57px;
+            padding: 4px;
+        }
+
+        p{
+            color: white;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            font-family: 'Saira', sans-serif;
+            margin: 0px;
+        }
+
+        p::before {
+            content: "Miles Morales";
+            color: white;
+            animation: name infinite 9s;
+        }
+
+        @keyframes name {
+            0% {
+                content: "Miles Morales";
+                transform: rotateX(0deg);
+            }
+
+            17%{
+                content: "Miles Morales";
+                transform: rotateX(180deg);
+            }
+
+            34% {
+                content: "Gwen Stacy";
+                transform: rotateX(0deg);
+            }
+
+            49%{
+                content: "Gwen Stacy";
+                transform: rotateX(180deg);
+            }
+
+            68% {
+                content: "Peter Parker";
+                transform: rotateX(0deg);
+            }
+
+            85%{
+                content: "Peter Parker";
+                transform: rotateX(180deg);
+            }
+
+            100%{
+                transform: rotateX(0deg);
+            }
+        }
+    }
+
+    .login{
+        display: flex;
+
+        .default-profile{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            padding: 10px;
+            background-color: #C90000;
+            margin: 3px 10px;
+            font-size: 32px;
+            text-align: center;
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    }
+
+    .logged {
+        height: 37px;
+        background-color: #C90000;
+        font-size: 26px;
+        color: #FFFFFF;
+        font-family: 'Saira', sans-serif;
+        border: none;
+        padding: 0px 10px;
+    }
+
+    .logged-in {
+        margin: 10px 10px;
+    }
+
+    .logged-out{
+        margin: 10px 36px;
+    }
+
+    .profile-pic {
+        width: 67px;
+        height: 57px;
+        border-radius: 50%;
+        padding: 5px 10px;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .header{
+        height: 45px;
+    
+        .logo {
+            display: flex;
+    
+            img {
+                width: 45px;
+                height: 45px;
+            }
+    
+            p{
+                font-size: 22px;
+            }
+    
+        }
+
+        .logged {
+            height: 31px;
+            font-size: 24px;
+            padding: 0px 10px;
+        }
+    
+        .logged-in {
+            margin: 7px 10px;
+        }
+    
+        .logged-out{
+            margin: 7px 10px;
+        }
+    
+        .profile-pic {
+            width: 67px;
+            height: 57px;
+            border-radius: 50%;
+            padding: 5px 10px;
+        }
+    }
+}
