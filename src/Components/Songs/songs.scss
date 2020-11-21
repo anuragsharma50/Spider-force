@@ -4,4 +4,17 @@
     h2{
         font-family: 'Saira', sans-serif;
     }
+
+    audio {
+        width: 80%;
+        border-radius: 0px;
+        border: 2px solid black;
+        background-color: beige;
+        height: 60px;
+        font-weight: bold;
+        position: fixed;
+        left: calc(100px + 10vw);
+        bottom: 10px;
+        margin-right: 10px;
+    }
 }

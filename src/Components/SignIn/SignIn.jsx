@@ -4,9 +4,8 @@ import { Formik,Form,Field,ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import TextError from '../TextError';
 import Google from '../../assets/images/Icons/google.png';
-import { signInWithGoogle } from '../../firebase/firebaseConfig';
+import { signInWithGoogle,auth } from '../../firebase/firebaseConfig';
 import { Link } from 'react-router-dom';
-import {auth} from '../../firebase/firebaseConfig';
 
 const initialValues = {
     password: '',
