@@ -1,0 +1,35 @@
+.music-card {
+    width: 90%;
+    height: calc(100px + 15vw);
+    background-color: #ddd;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+
+    img {
+        width: calc(80px + 10%);
+        height: 100%;
+        background-color: #bbb;
+    }
+
+    .card-data {
+        margin: auto;
+        cursor: pointer;
+
+        h2{
+            font-size: calc(8px + 3vw);
+        }
+
+        p{
+            text-align: center;
+        }
+    }
+}
+
+.music-card:nth-child(even){
+    flex-direction: row;
+}
+
+.music-card:nth-child(odd){
+    flex-direction: row-reverse;
+}

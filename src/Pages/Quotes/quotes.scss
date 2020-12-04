@@ -1,0 +1,32 @@
+.quotes{
+    margin-left: calc(100px + 10vw);
+
+    h2{
+        text-align: center;
+    }
+
+    .quotes-pair {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+
+        img {
+            width: 30%;
+            margin: 10px;
+        }
+    }
+
+    .quotes-pair:nth-child(2n+1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        flex-direction: row-reverse;
+
+        img {
+            width: 30%;
+            margin: 10px;
+        }
+    }
+}

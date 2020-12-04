@@ -1,0 +1,24 @@
+.stories{
+    margin-left: calc(100px + 10vw);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    img {
+        position: absolute;
+        right: 10px;
+        top: 60px;
+    }
+
+    .stories-grid{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex: 1;
+
+        .stories-grid-item {
+            justify-content: center;
+        }
+    }
+}

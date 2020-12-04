@@ -1,0 +1,43 @@
+.videos{
+    margin: auto;
+    margin-left: calc(100px + 10vw);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .video-player{
+        background-color: #ddd;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+        
+    .images{
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .image-detail{
+            width: 320px;
+            margin: 10px;
+            cursor: pointer;
+            flex-grow: 1;
+            text-align: center;
+
+            img{
+                width: 100%;
+                background-color: #ddd;
+            }
+
+            h4 {
+                height: 10px;
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 .user {
     padding: 10px;
+    margin-left: calc(100px + 10vw);
 
     h2{
         font-family: 'Saira', sans-serif;
@@ -28,12 +29,13 @@
             border: 2px solid;
         }
 
+        .profile-pic:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
         .change-pic {
             margin-top: 10px;
+            width: 92px;
         }
     }
-
-    
-
-
 }

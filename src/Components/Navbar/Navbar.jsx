@@ -28,10 +28,10 @@ function Navbar() {
                 </li>
             </Link>
 
-            <Link to='/clip'>
+            <Link to='/videos'>
                 <li>
                 <img src={Movie} alt=''/>
-                    Movie Clip
+                    Videos
                 </li>
             </Link>
 

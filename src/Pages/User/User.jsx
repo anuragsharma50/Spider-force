@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './user.scss';
 import { auth } from '../../firebase/firebaseConfig';
 import { Link} from 'react-router-dom';
+import useStorage from '../../CustomHooks/useStorage';
 
 function User({user}) {
+
+    const [file, setfile] = useState('')
+    const {url} = useStorage(file,user.id,user.photoURL);
+
+    console.log(url)
 
     const changeHandler = (e) => {
         const selectedFile = e.target.files[0]
         console.log(selectedFile);
+        setfile(selectedFile);
     }
 
     return (
