@@ -45,7 +45,7 @@ function NewStory({user}) {
     return (
         <div className='new-story'>
             <h2>New Story</h2>
-            <input type="text" value={title} onChange={(event) => setTitle(event.target.value)} placeholder='Title' className='newstory-title' />
+            <input type="text" value={title} onChange={(event) => setTitle(event.target.value)} maxLength='40' placeholder='Title' className='newstory-title' />
             <RichTextEditor
                 value={value}
                 onChange={onChange}
@@ -54,9 +54,9 @@ function NewStory({user}) {
             {
                 time.minutes>0 && <div className='editor-time'>{time.text}</div>
             }
-            <div className='newstories-show' dangerouslySetInnerHTML={{__html: value.toString('html')}} />
+            {/* <div className='newstories-show' dangerouslySetInnerHTML={{__html: value.toString('html')}} /> */}
             { 
-                title !== '' && time.minutes>0  && <button onClick={publish} className='new-story-button'>Publish</button>
+                title !== '' && time.minutes>0  && user && <button onClick={publish} className='new-story-button'>Publish</button>
             }
         </div>
     )

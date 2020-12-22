@@ -34,6 +34,7 @@ const onSubmit = async (values) => {
 
 function SignIn() {
     return (
+        <div className='sign-in-form'>
         <Formik 
         initialValues = {initialValues}
         validationSchema = {validationSchema}
@@ -78,6 +79,7 @@ function SignIn() {
                 }
             }
         </Formik>
+        </div>
     )
 }
 

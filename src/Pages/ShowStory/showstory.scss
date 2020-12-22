@@ -1,0 +1,28 @@
+.show-story{
+    margin-left: calc(100px + 10vw);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+
+    .story{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .story-content{
+        border: 2px solid;
+        padding: 10px;
+        margin: 10px;
+
+        .time{
+            text-align: end; 
+        }
+
+        h5{
+            text-align: end;
+        }
+    }
+}

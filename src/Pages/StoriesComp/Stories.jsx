@@ -20,8 +20,6 @@ function Stories() {
         return () => unsub();
     }, [])
 
-    console.log(stories)
-
     return (
         <div className='stories'>
             <h2>Stories</h2>
@@ -30,11 +28,13 @@ function Stories() {
             </Link>
             <div className='stories-grid'>
                 {stories.map(story => (
-                    <div className='stories-grid-item' key={story.id}>
-                        <h3>{story.title}</h3>
-                        <p>{story.author}</p>
-                        <p>{story.time}</p>
-                    </div>
+                    <Link to={`/stories/${story.id}`} key={story.id}>
+                        <div className='stories-grid-item'>
+                            <h3>{story.title}</h3>
+                            <p>{story.author}</p>
+                            <p>{story.time}</p>
+                        </div>
+                    </Link>
                 ))}
             </div>
         </div>

@@ -1,0 +1,153 @@
+.home{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: calc(100px + 9vw);
+    flex-direction: column;
+
+    .join{
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        width: 100%;
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            padding: 10px;
+
+            h2{
+                font-size: 2.5rem;
+                text-align: center;
+                border: 2px solid red;
+                background-color: #f9f462;
+                padding: 10px;
+            }
+
+            button{
+                font-size: 24px;
+                border: none;
+                background-color: #ffff2dd1;
+                padding: 10px;
+                border-radius: 20px;
+            }
+        }
+
+        img{
+            width: calc(180px + 12vw);
+        }
+    }
+
+    .music{
+        flex-direction: row-reverse;
+
+        .content{
+            background: linear-gradient(to bottom, #eeeeee 10%, #e4e4e4 70%, #b6b6b6 100%);
+
+            h2{
+                color: #ffcb43;
+                border: 2px solid red;
+                background-color: transparent;
+            }
+
+            button{
+                background-color: #e91313;
+                color: #ffcb43;
+                border: 2px solid black;
+            }
+        }
+    }
+
+    .video{
+        .content{
+            background-color: #120f20;
+
+            h2{
+                border: 2px solid #ffffff;
+                background-color: #842338;
+                color: black;
+            }
+
+            button{
+                background-color: black;
+                color: #912a3a;
+            }
+        }
+    }
+
+    .comic{
+        flex-direction: row-reverse;
+        .content{
+            background: linear-gradient(to bottom, #48bbdf 10%, #29cbe3 20%, #8e9ad3 60%, #f06cae 100%);
+
+            h2{
+                border: 2px solid #ffffff;
+                background-color: #d4167e;
+                color: white;
+            }
+
+            button{
+                background-color: black;
+                color: #26eaf6;
+            }
+        }
+    }
+
+    .home-character{
+        .content{
+            background-color: #ea4b37;
+            h2{
+                border: 2px solid #312432;
+                background-color: #e52e74;
+                color: white;
+            }
+
+            button{
+                background-color: #366ab9;
+                color: #f1e8e9;
+            }
+        }
+
+    }
+
+    .home-quotes{
+        flex-direction: row-reverse;
+        .content{
+            background: linear-gradient(to bottom, #144569 10%, #155277 20%, #3f5a72 60%, #171612 100%);
+
+            h2{
+                    border: 2px solid black;
+                    background-color: #d13628;
+                    color: #f2fbff;
+            }
+
+            button{
+                background-color: #141b2e;
+                color: #f0f9fe;
+            }
+        }
+
+    }
+
+    .home-stories{
+        .content{
+            background-color: #4194c0;
+
+            h2{
+                border: 2px solid #be5753;
+                background-color: #f5e5be;
+                color: black;
+            }
+
+            button{
+                background-color: #cd5853;
+                color: #f0f9fe;
+            }
+        }
+
+    }
+}

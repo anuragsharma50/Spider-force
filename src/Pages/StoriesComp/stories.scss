@@ -5,10 +5,18 @@
     justify-content: center;
     flex: 1;
 
+    a{
+        text-decoration: none;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
     img {
         position: absolute;
         right: 10px;
-        top: 60px;
+        top: 70px;
     }
 
     .stories-grid{
@@ -16,9 +24,20 @@
         justify-content: space-around;
         align-items: center;
         flex: 1;
+        flex-wrap: wrap;
 
         .stories-grid-item {
             justify-content: center;
+            cursor: pointer;
+            flex-grow: 1;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid;
+            color: black;
+
+            h3{
+                font-size: 24px;
+            }
         }
     }
 }

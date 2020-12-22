@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <div className='nav-control'>
         <nav>
-            <Link to='/home'>
+            <Link to='/'>
                 <li>
                     <img src={Home} alt=''/>
                     Home
