@@ -8,6 +8,16 @@ https://spider-force.netlify.app/
 
 # Preview
 
-![Screenshot](https://github.com/anuragsharma50/Word-Game/blob/master/static/Screenshot_1.png)
-![Screenshot](https://github.com/anuragsharma50/Word-Game/blob/master/static/Screenshot_2.png)
-![Screenshot](https://github.com/anuragsharma50/Word-Game/blob/master/static/Screenshot_3.png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(354).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(355).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(356).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(357).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(358).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(359).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(360).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(361).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(361).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(362).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(363).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(364).png)
+![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(365).png)
