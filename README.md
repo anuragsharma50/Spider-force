@@ -16,7 +16,6 @@ https://spider-force.netlify.app/
 ![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(359).png)
 ![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(360).png)
 ![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(361).png)
-![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(361).png)
 ![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(362).png)
 ![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(363).png)
 ![Screenshot](https://github.com/anuragsharma50/Spider-force/blob/master/static/Screenshot%20(364).png)
