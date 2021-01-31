@@ -57,7 +57,7 @@ function App() {
               <Route path='/sign-in' component={SignIn} />
               <Route path='/songs' component={Songs} />
               <Route path='/stories/:storyId' component={ShowStory} />
-              <Route path='/stories' component={Stories} />
+              <Route path='/stories' component={() => <Stories user={currentuser} />} />
               <Route path='/newstory' component={() => <NewStory user={currentuser} />} />
               <Route path='/quotes' component={Quotes} />
               <Route path='/videos' component={Videos} />

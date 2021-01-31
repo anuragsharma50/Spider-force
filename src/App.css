@@ -20,6 +20,13 @@ body,html {
   display: flex;
   flex-direction: row;
   margin-top: 57px;
+  background-image: url(./assets/background.png);
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 10px;
 }
 
 button{

@@ -74,7 +74,7 @@ function Home() {
 
             <div className='join home-stories'>
                 <div className='content'>
-                    <h2>share you'r Spider-man related story</h2> 
+                    <h2>Share you'r Spider-man related story</h2> 
                     <Link to='/stories'>
                         <button>Share Now</button>
                     </Link>

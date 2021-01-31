@@ -4,7 +4,7 @@ import Plus from '../../assets/images/Icons/plus.png';
 import {Link} from 'react-router-dom';
 import { firestore } from '../../firebase/firebaseConfig'; 
 
-function Stories() {
+function Stories({user}) {
 
     const [stories, setStories] = useState([])
 
@@ -23,9 +23,15 @@ function Stories() {
     return (
         <div className='stories'>
             <h2>Stories</h2>
-            <Link to='/newstory'>
-                <img src={Plus} alt="plus"/>
-            </Link>
+            {
+                user ? <Link to='/newstory'>
+                            <img src={Plus} alt="plus"/>
+                        </Link>
+                :   <Link to='/sign-up'>
+                        <img src={Plus} alt="plus"/>
+                    </Link>
+            }
+            
             <div className='stories-grid'>
                 {stories.map(story => (
                     <Link to={`/stories/${story.id}`} key={story.id}>
